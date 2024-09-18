@@ -64,7 +64,7 @@ const card = () => {
       <div class="cart-img-add-btn">
         <img class="cart--image" src="img_girl.jpg" alt="item image" />
         <button class="cart--button">
-          <svg />
+          <addToCartSvg />
           Add to Cart
         </button>
       </div>
