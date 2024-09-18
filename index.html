@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+
+<body>
+
+  <div class="cart">
+    <h1>Desserts</h1>
+    <div class="cart-cards">
+      <cartCard />
+    </div>
+    <div class="cart-order">
+      <h2 class="cart-order--h2"></h2>
+      <div class="cart-order-items">
+        <p class="cart-order--name"></p>
+        <div class="cart-item-details">
+          <p class="cart-item--quantity"></p>
+          <p class="cart-item--price">@$</p>
+          <p class="cart-item--total">$</p>
+          <button class="cart-item--close-btn">
+            <removeFromCartSvg />
+          </button>
+        </div>
+        <div class="cart-total">
+          <p class="cart-total--label">Order Total</p>
+          <p class="cart-total--price">$</p>
+        </div>
+        <div class="cart-carbon">
+          <carbonNeutralSvg />
+          <p class="cart-carbon--p">This is a carbon-neutral delivery</p>
+        </div>
+        <button class="cart-oder--confirm-btn">
+          Confirm Order
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
