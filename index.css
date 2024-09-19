@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  body {
+    background-color: transparent;
+  }
+}
+body {
+  background-color: #ffffff;
+}
+
+body {
+  padding: 100px 200px;
+}
+body .cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body .cart .cart-header-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body .cart .cart-header-cards .cart-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+}
+body .cart .cart-header-cards .cart-cards .cart-card {
+  display: flex;
+  flex-direction: column;
+}
+body .cart .cart-header-cards .cart-cards .cart-card .cart-img-add-btn {
+  position: relative;
+}
+body .cart .cart-header-cards .cart-cards .cart-card .cart-img-add-btn .cart--button {
+  position: absolute;
+  bottom: -15px;
+  right: 45%;
+}
+body .cart .cart-order {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}/*# sourceMappingURL=index.css.map */
