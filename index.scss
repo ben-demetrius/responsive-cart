@@ -26,6 +26,7 @@ body {
         .cart-card {
           display: flex;
           flex-direction: column;
+          justify-content: space-around;
 
           .cart-img-add-btn {
             position: relative;
@@ -44,6 +45,11 @@ body {
               .cart-button--p {
               }
             }
+          }
+
+          .cart-card-texts {
+            display: flex;
+            flex-direction: column;
           }
 
           .cart--category {
