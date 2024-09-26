@@ -78,13 +78,13 @@ $font: "Jost", sans-serif;
   $line_height,
   $letter_spacing: +2px,
   $color,
-  $style: normal
+  // $style: normal
 ) {
   font: {
     family: $fam;
     weight: $weight;
     size: $size;
-    style: $style;
+    // style: $style;
   }
   letter-spacing: $letter_spacing;
   line-height: $line_height;
@@ -124,6 +124,15 @@ h2 {
 h3 {
   @include fonts(
     $size: 20px,
+    $line_height: 26px,
+    $letter_spacing: +5,
+    $color: $secondary_variant
+  );
+}
+
+p {
+  @include fonts(
+    $size: 16px,
     $line_height: 26px,
     $letter_spacing: +5,
     $color: $secondary_variant

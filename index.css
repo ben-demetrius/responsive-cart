@@ -54,7 +54,6 @@ h1 {
   font-family: "Jost", sans-serif;
   font-weight: 900;
   font-size: 48px;
-  font-style: normal;
   letter-spacing: 2px;
   line-height: 48px;
   color: #333136;
@@ -69,7 +68,6 @@ h2 {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 40px;
-  font-style: normal;
   letter-spacing: 2px;
   line-height: 48px;
   color: #333136;
@@ -79,7 +77,15 @@ h3 {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  font-style: normal;
+  letter-spacing: 5;
+  line-height: 26px;
+  color: #333136;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   letter-spacing: 5;
   line-height: 26px;
   color: #333136;
