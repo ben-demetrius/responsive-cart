@@ -68,19 +68,6 @@ $cream: #ffecbb;
 $grey: rgb(245, 238, 238);
 $orange: #e56e11;
 
-@media print {
-  body {
-    background-color: transparent;
-  }
-}
-
-body {
-  display: flex;
-  justify-content: center;
-
-  background-color: $secondary;
-}
-
 //Fonts -------------------------
 $font: "Jost", sans-serif;
 
@@ -102,6 +89,19 @@ $font: "Jost", sans-serif;
   letter-spacing: $letter_spacing;
   line-height: $line_height;
   color: $color;
+}
+
+@media print {
+  body {
+    background-color: transparent;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: $secondary;
 }
 
 h1 {
