@@ -7,8 +7,6 @@
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 @media (max-width: 1536px) {
@@ -85,10 +83,6 @@ h3 {
   letter-spacing: 5;
   line-height: 26px;
   color: #333136;
-}
-
-div {
-  border: 1px dotted red;
 }
 
 .cart {
